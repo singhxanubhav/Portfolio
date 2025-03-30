@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 import ShimmerButton from "@/components/magicui/shimmer-button";
 import TechStackSection from "@/components/TechStack";
 import MyProjects from "@/components/Projects";
-import MyWorkExperience from "@/components/WorkExperience";
-import AboutMe from "@/components/Aboutme";
+// import MyWorkExperience from "@/components/WorkExperience";
+// import AboutMe from "@/components/Aboutme";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 50 },
