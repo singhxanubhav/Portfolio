@@ -30,8 +30,12 @@ export default function Home() {
           I build things for the web.
         </h2>
         <p className="text-lg md:text-xl text-slate-400 leading-relaxed">
-          I'm Anubhav Singh, a final-year student and Full Stack Developer with a passion for building scalable and efficient web applications. I enjoy transforming complex problems into simple, intuitive solutions through clean and maintainable code.
+          I&apos;m Anubhav Singh, a final-year student and Full Stack Developer
+          with a passion for building scalable and efficient web applications. I
+          enjoy transforming complex problems into simple, intuitive solutions
+          through clean and maintainable code.
         </p>
+
         <motion.div
           className="flex self-start items-center mt-4"
           initial="hidden"
@@ -39,11 +43,7 @@ export default function Home() {
           variants={fadeInUp}
           viewport={{ once: true, amount: 0.3 }}
         >
-          <a
-            href=""
-            target="_blank"
-            download="Anubhav_Singh_Resume.pdf"
-          >
+          <a href="" target="_blank" download="Anubhav_Singh_Resume.pdf">
             <ShimmerButton background="#020617" className="w-48 h-12 mb-2">
               Resume
             </ShimmerButton>
@@ -68,7 +68,7 @@ export default function Home() {
       >    
       </motion.div> */}
       <TechStackSection />
-        <MyProjects />
+      <MyProjects />
 
       {/* <motion.section
         id="projects"
@@ -79,7 +79,7 @@ export default function Home() {
       >
         
       </motion.section> */}
-      
+
       {/* <motion.section
         id="about"
         initial="hidden"
@@ -89,7 +89,6 @@ export default function Home() {
       >
         <AboutMe />
       </motion.section> */}
-    
     </div>
   );
 }
