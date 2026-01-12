@@ -203,6 +203,70 @@ const Home = () => {
                 <div className="flex justify-between items-start">
                   <div>
                     <p className="text-md font-bold">
+                      Build.new
+                      <span className="ml-2">
+                        <Badge text="📦 Completed" />
+                      </span>
+                    </p>
+                    <p className="text-xs font-semibold mt-1">
+                      <strong>Tech Stack: </strong> TypeScript, React, Express,
+                      GenAI, WebContainers
+                    </p>
+                  </div>
+                  <div className="flex gap-4">
+                    <a
+                      href="https://build.new.anubhavsingh.site/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm group1 text-black flex items-center dark:text-white hover:scale-105 duration-150"
+                    >
+                      live preview
+                      <span className="scale-90">
+                        <ArrowUpRight />
+                      </span>
+                    </a>
+                    <a
+                      href="https://github.com/singhxanubhav/build.new"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-black flex items-center dark:text-white hover:scale-105 duration-150"
+                    >
+                      source code
+                      <span className="scale-90">
+                        <ArrowUpRight />
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <ul className="mt-2 space-y-2 text-sm text-black dark:text-white list-disc pl-4">
+                  <li>
+                    Designed and deployed a full-stack AI website generation
+                    platform converting natural-language prompts into frontend
+                    code.
+                  </li>
+                  <li>
+                    Refactored a traditional Express backend into a
+                    Vercel-compatible serverless architecture, ensuring reliable
+                    runtime.
+                  </li>
+                  <li>
+                    Integrated Groq LLM workflows to generate project templates
+                    and code artifacts with robust error handling.
+                  </li>
+                  <li>
+                    Built a production-ready React frontend with
+                    environment-based configuration and clean API abstractions.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            {/* Project 2 */}
+            <div className="relative flex items-start group">
+              <VerticalLine />
+              <div className="ml-4">
+                <div className="flex justify-between items-start">
+                  <div>
+                    <p className="text-md font-bold">
                       BridgePay
                       <span className="ml-2">
                         <Badge text="📦 Completed" />
@@ -269,6 +333,72 @@ const Home = () => {
                 <div className="flex justify-between items-start">
                   <div>
                     <p className="text-md font-bold">
+                      CodeType
+                      <span className="ml-2">
+                        <Badge text="📦 Completed" />
+                      </span>
+                    </p>
+                    <p className="text-xs font-semibold mt-1">
+                      <strong>Tech Stack: </strong> Next.js, MongoDB, Zustand,
+                      NextAuth, Tailwind CSS
+                    </p>
+                  </div>
+                  <div className="flex gap-4">
+                    <a
+                      href="https://bridgepay.anubhavsingh.site/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm group1 text-black flex items-center dark:text-white hover:scale-105 duration-150"
+                    >
+                      live preview
+                      <span className="scale-90">
+                        <ArrowUpRight />
+                      </span>
+                    </a>
+                    <a
+                      href="https://github.com/singhxanubhav/BridgePay"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-black flex items-center dark:text-white hover:scale-105 duration-150"
+                    >
+                      source code
+                      <span className="scale-90">
+                        <ArrowUpRight />
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <ul className="mt-2 space-y-2 text-sm text-black dark:text-white list-disc pl-4">
+                  <li>
+                    Built DevType, a developer-focused typing test platform
+                    using real-world code snippets across multiple languages
+                    (JS, TS, Python, Go, Java, C++, Rust).
+                  </li>
+                  <li>
+                    Implemented Smart WPM calculation where typing errors
+                    directly impact speed and accuracy, simulating real coding
+                    scenarios.
+                  </li>
+                  <li>
+                    Designed a global leaderboard system ranking users by a
+                    composite score (WPM × Accuracy) with streaks and
+                    achievements.
+                  </li>
+                  <li>
+                    Delivered a high-performance PWA with instant interactions,
+                    optimized rendering, and smooth UX for competitive typing
+                    sessions.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            {/* Project 3 */}
+            <div className="relative flex items-start group">
+              <VerticalLine />
+              <div className="ml-4">
+                <div className="flex justify-between items-start">
+                  <div>
+                    <p className="text-md font-bold">
                       Payments App
                       <span className="ml-2">
                         <Badge text="📦 Completed" />
@@ -327,24 +457,25 @@ const Home = () => {
                 </ul>
               </div>
             </div>
-            {/* Project 3 */}
+            {/* Project 4 */}
             <div className="relative flex items-start group">
               <VerticalLine />
               <div className="ml-4">
                 <div className="flex justify-between items-start">
                   <div>
                     <p className="text-md font-bold">
-                    Portfolio Tracker
+                      Portfolio Tracker
                       <span className="ml-2">
                         <Badge text="📦 Completed" />
                       </span>
                     </p>
                     <p className="text-xs font-semibold mt-1">
-                      <strong>Tech Stack: </strong> Next.js, PostgreSQL Prisma, NextAuth, Tailwind CSS
+                      <strong>Tech Stack: </strong> Next.js, PostgreSQL Prisma,
+                      NextAuth, Tailwind CSS
                     </p>
                   </div>
                   <div className="flex gap-4">
-                  <a
+                    <a
                       href="https://portfolio.anubhavsingh.site/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -370,20 +501,24 @@ const Home = () => {
                 </div>
                 <ul className="mt-2 space-y-2 text-sm text-black dark:text-white list-disc pl-4">
                   <li>
-                  Built a stock portfolio management platform with Next.js, Prisma, and PostgreSQL, enabling users to track all
-                  their holdings in one place.
+                    Built a stock portfolio management platform with Next.js,
+                    Prisma, and PostgreSQL, enabling users to track all their
+                    holdings in one place.
                   </li>
                   <li>
-                  Automated real-time stock price fetching via Yahoo Finance API, improving investment monitoring efficiency by
-                  70% compared to manual tracking.
+                    Automated real-time stock price fetching via Yahoo Finance
+                    API, improving investment monitoring efficiency by 70%
+                    compared to manual tracking.
                   </li>
                   <li>
-                  Implemented secure authentication with Google OAuth NextAuth.js, ensuring seamless onboarding and protecting
-                  sensitive financial data.
+                    Implemented secure authentication with Google OAuth
+                    NextAuth.js, ensuring seamless onboarding and protecting
+                    sensitive financial data.
                   </li>
                   <li>
-                  Deployed on Vercel with CI/CD pipelines, delivering a scalable, production-ready app with 99.9% uptime and
-                  responsive performance.
+                    Deployed on Vercel with CI/CD pipelines, delivering a
+                    scalable, production-ready app with 99.9% uptime and
+                    responsive performance.
                   </li>
                 </ul>
               </div>
