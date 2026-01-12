@@ -345,7 +345,7 @@ const Home = () => {
                   </div>
                   <div className="flex gap-4">
                     <a
-                      href="https://bridgepay.anubhavsingh.site/"
+                      href="https://codetype.anubhavsingh.site/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm group1 text-black flex items-center dark:text-white hover:scale-105 duration-150"
@@ -356,7 +356,7 @@ const Home = () => {
                       </span>
                     </a>
                     <a
-                      href="https://github.com/singhxanubhav/BridgePay"
+                      href="https://github.com/singhxanubhav/CodeType"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm text-black flex items-center dark:text-white hover:scale-105 duration-150"
@@ -552,6 +552,7 @@ const Home = () => {
             <Badge text="git" isHover={true} />
             <Badge text="github actions" isHover={true} />
             <Badge text="ci/cd" isHover={true} />
+            <Badge text="Zustand" isHover={true} />
           </div>
         </section>
       </main>
