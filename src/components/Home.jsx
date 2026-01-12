@@ -104,8 +104,7 @@ const Home = () => {
                 className="py-2 group text-sm flex items-center"
                 onClick={() => {
                   window.open(
-                    "https://drive.google.com/file/d/1-93bNt4hW2ND1OOVWGjCCMu1BVB_165M/view?usp=sharing",
-                    "_blank"
+                    "https://drive.google.com/file/d/19J-J_i0bp54ChcBPnnAU96_109wuWw1K/view?usp=sharing"
                   );
                 }}
               >
