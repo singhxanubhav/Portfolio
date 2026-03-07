@@ -121,6 +121,30 @@ const Home = () => {
         <section id="work-experience" className="mt-10">
           <h2 className="text-l font-semibold mb-4">work experience.</h2>
           <div className="space-y-8 max-w-2xl">
+          <div className="relative flex items-start group">
+              <VerticalLine />
+              <div className="ml-4">
+                <div className="flex justify-between items-start">
+                  <div>
+                    <h5 className="font-medium">Software Engineer 1</h5>
+                    <a
+                      href="https://univisory.org/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs text-black dark:text-white"
+                    >
+                      at <span className="underline">UniVisory</span>
+                    </a>
+                  </div>
+                  <span className="text-xs font-semibold text-black dark:text-white">
+                    jan, 2025 - present
+                  </span>
+                </div>
+                <p className="mt-2 text-sm text-black dark:text-white">
+                Led the end-to-end development of scalable full-stack web applications, ensuring high performance and reliability. Designed and implemented robust system architectures to support growing product requirements. Developed responsive frontend interfaces and secure backend APIs to deliver seamless user experiences. Collaborated with cross-functional teams to translate business requirements into technical solutions. Optimized application performance and improved system efficiency through effective coding practices. Streamlined deployment pipelines and automated workflows to enhance development productivity. Ensured maintainability and scalability by following modern development standards and best practices. Delivered production-ready features that contributed to building a reliable and scalable company product.
+                </p>
+              </div>
+            </div>
             <div className="relative flex items-start group">
               <VerticalLine />
               <div className="ml-4">
@@ -137,7 +161,7 @@ const Home = () => {
                     </a>
                   </div>
                   <span className="text-xs font-semibold text-black dark:text-white">
-                    sept, 2025 - present
+                    sept, 2025 - dec, 2025
                   </span>
                 </div>
                 <p className="mt-2 text-sm text-black dark:text-white">
@@ -159,6 +183,7 @@ const Home = () => {
               </div>
             </div>
 
+            
             {/* <div className="relative flex items-start group">
               <VerticalLine />
               <div className="ml-4">
