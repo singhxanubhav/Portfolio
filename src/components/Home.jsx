@@ -121,12 +121,12 @@ const Home = () => {
         <section id="work-experience" className="mt-10">
           <h2 className="text-l font-semibold mb-4">work experience.</h2>
           <div className="space-y-8 max-w-2xl">
-          <div className="relative flex items-start group">
+            <div className="relative flex items-start group">
               <VerticalLine />
               <div className="ml-4">
                 <div className="flex justify-between items-start">
                   <div>
-                    <h5 className="font-medium">Software Engineer 1</h5>
+                    <h5 className="font-medium">Software Engineer</h5>
                     <a
                       href="https://univisory.org/"
                       target="_blank"
@@ -141,7 +141,21 @@ const Home = () => {
                   </span>
                 </div>
                 <p className="mt-2 text-sm text-black dark:text-white">
-                Led the end-to-end development of scalable full-stack web applications, ensuring high performance and reliability. Designed and implemented robust system architectures to support growing product requirements. Developed responsive frontend interfaces and secure backend APIs to deliver seamless user experiences. Collaborated with cross-functional teams to translate business requirements into technical solutions. Optimized application performance and improved system efficiency through effective coding practices. Streamlined deployment pipelines and automated workflows to enhance development productivity. Ensured maintainability and scalability by following modern development standards and best practices. Delivered production-ready features that contributed to building a reliable and scalable company product.
+                  Led the end-to-end development of scalable full-stack web
+                  applications, ensuring high performance and reliability.
+                  Designed and implemented robust system architectures to
+                  support growing product requirements. Developed responsive
+                  frontend interfaces and secure backend APIs to deliver
+                  seamless user experiences. Collaborated with cross-functional
+                  teams to translate business requirements into technical
+                  solutions. Optimized application performance and improved
+                  system efficiency through effective coding practices.
+                  Streamlined deployment pipelines and automated workflows to
+                  enhance development productivity. Ensured maintainability and
+                  scalability by following modern development standards and best
+                  practices. Delivered production-ready features that
+                  contributed to building a reliable and scalable company
+                  product.
                 </p>
               </div>
             </div>
@@ -161,7 +175,7 @@ const Home = () => {
                     </a>
                   </div>
                   <span className="text-xs font-semibold text-black dark:text-white">
-                    sept, 2025 - dec, 2025
+                    sept, 2024 - dec, 2025
                   </span>
                 </div>
                 <p className="mt-2 text-sm text-black dark:text-white">
@@ -183,7 +197,6 @@ const Home = () => {
               </div>
             </div>
 
-            
             {/* <div className="relative flex items-start group">
               <VerticalLine />
               <div className="ml-4">
@@ -227,6 +240,218 @@ const Home = () => {
                 <div className="flex justify-between items-start">
                   <div>
                     <p className="text-md font-bold">
+                      INVEXTO
+                      <span className="ml-2">
+                        <Badge text="🚀 Live" />
+                      </span>
+                    </p>
+                    <p className="text-xs font-semibold mt-1">
+                      <strong>Tech Stack: </strong> Next.js, TypeScript, Prisma,
+                      PostgreSQL, Zod, Vercel
+                    </p>
+                  </div>
+
+                  <div className="flex gap-4">
+                    <a
+                      href="https://invexto.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-black flex items-center dark:text-white hover:scale-105 duration-150"
+                    >
+                      live preview
+                      <span className="scale-90">
+                        <ArrowUpRight />
+                      </span>
+                    </a>
+
+                    <a
+                      href="https://github.com/singhxanubhav/INVEXTO-Website"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-black flex items-center dark:text-white hover:scale-105 duration-150"
+                    >
+                      source code
+                      <span className="scale-90">
+                        <ArrowUpRight />
+                      </span>
+                    </a>
+                  </div>
+                </div>
+
+                <ul className="mt-2 space-y-2 text-sm text-black dark:text-white list-disc pl-4">
+                  <li>
+                    Built a production-grade stock market trading platform
+                    enabling 200+ users to participate in monthly virtual
+                    trading tournaments with portfolio tracking and leaderboard
+                    rankings.
+                  </li>
+
+                  <li>
+                    Designed a scalable backend using Prisma and PostgreSQL to
+                    manage portfolios, transactions, leaderboards, and trading
+                    workflows.
+                  </li>
+
+                  <li>
+                    Optimized financial data retrieval through intelligent
+                    caching and automated monthly tournament processing with
+                    scheduled jobs.
+                  </li>
+
+                  <li>
+                    Developed interactive dashboards for portfolio analytics,
+                    stock insights, and market visualization with a responsive
+                    user experience.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            {/* Project 2 */}
+            <div className="relative flex items-start group">
+              <VerticalLine />
+              <div className="ml-4">
+                <div className="flex justify-between items-start">
+                  <div>
+                    <p className="text-md font-bold">
+                      ExamScore
+                      <span className="ml-2">
+                        <Badge text="🚀 Live" />
+                      </span>
+                    </p>
+
+                    <p className="text-xs font-semibold mt-1">
+                      <strong>Tech Stack: </strong> Next.js, TypeScript,
+                      PostgreSQL, Prisma, Gemini API, OpenAI API, Auth.js, Zod,
+                      Vercel
+                    </p>
+                  </div>
+
+                  <div className="flex gap-4">
+                    <a
+                      href="https://examscore.in/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-black flex items-center dark:text-white hover:scale-105 duration-150"
+                    >
+                      live preview
+                      <span className="scale-90">
+                        <ArrowUpRight />
+                      </span>
+                    </a>
+
+                    <a
+                      href="https://github.com/singhxanubhav/ExamScore-Website"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-black flex items-center dark:text-white hover:scale-105 duration-150"
+                    >
+                      source code
+                      <span className="scale-90">
+                        <ArrowUpRight />
+                      </span>
+                    </a>
+                  </div>
+                </div>
+
+                <ul className="mt-2 space-y-2 text-sm text-black dark:text-white list-disc pl-4">
+                  <li>
+                    Built an AI-powered education platform using Next.js,
+                    TypeScript, PostgreSQL, and Gemini/OpenAI APIs, helping 100+
+                    users generate structured academic guidance across multiple
+                    curricula.
+                  </li>
+
+                  <li>
+                    Designed a scalable backend using Prisma and PostgreSQL to
+                    manage users, academic content, sessions, folders, and
+                    gamification data.
+                  </li>
+
+                  <li>
+                    Engineered a resilient AI provider layer with intelligent
+                    caching, retry logic, and fallback mechanisms for reliable
+                    LLM integrations.
+                  </li>
+
+                  <li>
+                    Developed secure authentication, progress tracking, and
+                    gamification features to enhance personalized learning
+                    experiences.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            {/* Project 3 */}
+            <div className="relative flex items-start group">
+              <VerticalLine />
+              <div className="ml-4">
+                <div className="flex justify-between items-start">
+                  <div>
+                    <p className="text-md font-bold">
+                      TestXperts LMS
+                      <span className="ml-2">
+                        <Badge text="🏢 Production" />
+                      </span>
+                    </p>
+
+                    <p className="text-xs font-semibold mt-1">
+                      <strong>Tech Stack: </strong> React, Vite, Node.js,
+                      Express.js, PostgreSQL, Sequelize, AWS S3, Razorpay,
+                      OpenCV, Tesseract.js
+                    </p>
+                  </div>
+
+                  <div className="flex gap-4">
+                    <a
+                      href="https://testxperts.org/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-black flex items-center dark:text-white hover:scale-105 duration-150"
+                    >
+                      live preview
+                      <span className="scale-90">
+                        <ArrowUpRight />
+                      </span>
+                    </a>
+
+                    {/* Private project */}
+                  </div>
+                </div>
+
+                <ul className="mt-2 space-y-2 text-sm text-black dark:text-white list-disc pl-4">
+                  <li>
+                    Led the development of a scalable multi-tenant Learning
+                    Management System supporting assessments, courses, batches,
+                    scheduling, and institution management.
+                  </li>
+
+                  <li>
+                    Built end-to-end platform features including notifications,
+                    calendar & scheduling, attendance, profile management,
+                    analytics, and subscription workflows.
+                  </li>
+
+                  <li>
+                    Engineered an automated document processing pipeline to
+                    extract questions, tables, equations, and diagrams from
+                    academic PDFs into structured content.
+                  </li>
+
+                  <li>
+                    Designed scalable backend services and REST APIs supporting
+                    AI-powered learning workflows, secure authentication, and
+                    extensible enterprise architecture.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            {/* Project 4 */}
+            <div className="relative flex items-start group">
+              <VerticalLine />
+              <div className="ml-4">
+                <div className="flex justify-between items-start">
+                  <div>
+                    <p className="text-md font-bold">
                       Build.new
                       <span className="ml-2">
                         <Badge text="📦 Completed" />
@@ -239,7 +464,7 @@ const Home = () => {
                   </div>
                   <div className="flex gap-4">
                     <a
-                      href="https://build.new.anubhavsingh.site/"
+                      href="https://build.new.anubhavsingh.online/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm group1 text-black flex items-center dark:text-white hover:scale-105 duration-150"
@@ -284,7 +509,7 @@ const Home = () => {
                 </ul>
               </div>
             </div>
-            {/* Project 2 */}
+            {/* Project 5 */}
             <div className="relative flex items-start group">
               <VerticalLine />
               <div className="ml-4">
@@ -303,7 +528,7 @@ const Home = () => {
                   </div>
                   <div className="flex gap-4">
                     <a
-                      href="https://bridgepay.anubhavsingh.site/"
+                      href="https://bridgepay.anubhavsingh.online"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm group1 text-black flex items-center dark:text-white hover:scale-105 duration-150"
@@ -350,7 +575,7 @@ const Home = () => {
                 </ul>
               </div>
             </div>
-            {/* Project 2 */}
+            {/* Project 6 */}
             <div className="relative flex items-start group">
               <VerticalLine />
               <div className="ml-4">
@@ -369,7 +594,7 @@ const Home = () => {
                   </div>
                   <div className="flex gap-4">
                     <a
-                      href="https://codetype.anubhavsingh.site/"
+                      href="https://codetype.anubhavsingh.online"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm group1 text-black flex items-center dark:text-white hover:scale-105 duration-150"
@@ -416,7 +641,7 @@ const Home = () => {
                 </ul>
               </div>
             </div>
-            {/* Project 3 */}
+            {/* Project 7 */}
             <div className="relative flex items-start group">
               <VerticalLine />
               <div className="ml-4">
@@ -435,7 +660,7 @@ const Home = () => {
                   </div>
                   <div className="flex gap-4">
                     <a
-                      href="https://payment.anubhavsingh.site/"
+                      href="https://payment.anubhavsingh.online"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm group1 text-black flex items-center dark:text-white hover:scale-105 duration-150"
@@ -481,7 +706,7 @@ const Home = () => {
                 </ul>
               </div>
             </div>
-            {/* Project 4 */}
+            {/* Project 8 */}
             <div className="relative flex items-start group">
               <VerticalLine />
               <div className="ml-4">
@@ -500,7 +725,7 @@ const Home = () => {
                   </div>
                   <div className="flex gap-4">
                     <a
-                      href="https://portfolio.anubhavsingh.site/"
+                      href="https://portfolio.anubhavsingh.online"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm group1 text-black flex items-center dark:text-white hover:scale-105 duration-150"
@@ -577,6 +802,16 @@ const Home = () => {
             <Badge text="github actions" isHover={true} />
             <Badge text="ci/cd" isHover={true} />
             <Badge text="Zustand" isHover={true} />
+          </div>
+          <div className="mt-1 flex flex-wrap gap-2">
+          <Badge text="LangChain" isHover={true} />
+            <Badge text="OpenRouter" isHover={true} />
+            <Badge text="Gemini API" isHover={true} />
+            <Badge text="RAG" isHover={true} />
+            <Badge text="AI Agents" isHover={true} />
+            <Badge text=" Prompt Engineering" isHover={true} />
+            <Badge text="Embeddings" isHover={true} />
+            <Badge text="LangGraph" isHover={true} />
           </div>
         </section>
       </main>
